@@ -91,7 +91,8 @@ def get_projects_in_org(
             project,
             get_last_month_default_log_bucket_bytes(
                 project,
-                gcp_discovery_monitoring
+                gcp_discovery_monitoring,
+                logger
             )
         )
 
