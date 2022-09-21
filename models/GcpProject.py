@@ -1,4 +1,4 @@
-class GcpProject(object):
+class GcpProject():
 
     def __init__(self, project_name: str, project_id: str, project_display_name: str):
         self.project_id = project_id

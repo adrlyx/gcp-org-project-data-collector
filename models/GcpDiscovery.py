@@ -1,7 +1,5 @@
 from googleapiclient import discovery
-
-
-class GcpDiscovery(object):
+class GcpDiscovery():
 
     def __init__(self, credentials: object):
         self.billing_account_discovery = discovery.build('cloudbilling', 'v1', credentials=credentials)
